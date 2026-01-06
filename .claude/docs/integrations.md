@@ -1,4 +1,4 @@
-<!-- Last updated: 2026-01-05 | Status: Active -->
+<!-- Last updated: 2026-01-05 (Phase 3B Complete) | Status: Active -->
 
 # Integrations
 
@@ -116,7 +116,8 @@ npx supabase gen types typescript --project-id fidjzybkjowguvdlzahs > src/types/
 | `facets` | Malpublishing categories | 4 |
 | `standard_items` | Checklist items per facet | 25 |
 | `prevention_guidelines` | Best practice steps | 8 |
-| `sector_templates` | Industry presets | 4 |
+| `sector_templates` | Industry presets (7 categories) | 31 |
+| `commitment_templates` | Auto-generation mappings | 24 |
 | `policies` | User-created policies | - |
 | `organizations` | Claimed orgs | - |
 
@@ -127,7 +128,9 @@ npx supabase gen types typescript --project-id fidjzybkjowguvdlzahs > src/types/
 **Account**: malpublish (team)
 **Project**: malpublish
 **Dashboard**: https://vercel.com/malpublish/malpublish
-**Live URL**: https://malpublish.vercel.app
+**Live URLs**:
+- https://publishingpolicy.org (primary)
+- https://malpublish.vercel.app (Vercel default)
 
 ### Configuration
 

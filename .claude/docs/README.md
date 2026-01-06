@@ -19,11 +19,10 @@ Progressive disclosure docs for this project.
 
 | Resource | URL |
 |----------|-----|
-| Live site | _TBD_ |
-| Dashboard | _TBD_ |
-| Repository | _TBD_ |
-
-> **Update these links** when the project is deployed. Remove rows that don't apply.
+| Live site | https://publishingpolicy.org |
+| Vercel Dashboard | https://vercel.com/malpublish/malpublish |
+| Supabase Dashboard | https://supabase.com/dashboard/project/fidjzybkjowguvdlzahs |
+| Repository | https://github.com/malpublish/website |
 
 ---
 
