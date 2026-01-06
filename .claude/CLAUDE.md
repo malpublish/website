@@ -12,7 +12,7 @@
 
 | Current Focus | Status |
 |---------------|--------|
-| PublishingPolicy.org Rebrand | Sprint 1 Complete - Ready for Sprint 2 (New Wizard) |
+| PublishingPolicy.org Rebrand | Sprint 2 Complete - Ready for Sprint 3 (Malpublish Moment) |
 
 > **Keep this table updated**: When work focus changes, update silently. This helps future sessions pick up where you left off.
 

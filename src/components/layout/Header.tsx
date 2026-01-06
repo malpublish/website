@@ -16,7 +16,7 @@ export function Header() {
               Directory
             </Link>
             <Link
-              href="/new"
+              href="/build"
               className="bg-white text-[#0074ff] px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition-colors"
             >
               Build Policy

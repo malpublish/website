@@ -59,14 +59,15 @@ Organizations:
 - [x] Regenerate TypeScript types
 - [x] Verify build passes
 
-**Sprint 2: New Wizard Sections 1-3** (Next)
-- [ ] Section 1: Publishing Identity form
-- [ ] Section 2: Editorial Commitments (4 question groups)
-- [ ] Section 3: Accountability Framework (4 questions)
-- [ ] Progress indicator (4 sections)
-- [ ] State management for new form structure
+**Sprint 2: New Wizard Sections 1-3** ✅
+- [x] Section 1: Publishing Identity form
+- [x] Section 2: Editorial Commitments (4 question groups)
+- [x] Section 3: Accountability Framework (4 questions)
+- [x] Progress indicator (4 sections)
+- [x] State management for new form structure
+- [x] New /build route with PolicyWizard
 
-**Sprint 3: The Malpublish Moment**
+**Sprint 3: The Malpublish Moment** (Next)
 - [ ] Transitional screen design
 - [ ] Template substitution engine
 - [ ] Editable generated definitions UI
