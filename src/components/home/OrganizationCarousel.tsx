@@ -77,11 +77,6 @@ function CarouselRow({ organizations, speed, onOrganizationClick, direction }: C
       animationId = requestAnimationFrame(scroll)
     }
 
-    // Start from middle for right-scrolling row
-    if (direction === 'right' && scrollContainer.scrollLeft === 0) {
-      scrollContainer.scrollLeft = scrollContainer.scrollWidth / 2
-    }
-
     animationId = requestAnimationFrame(scroll)
     return () => cancelAnimationFrame(animationId)
   }, [isPaused, speed, direction])
@@ -170,7 +165,7 @@ export function OrganizationCarousel({ organizations, onOrganizationClick }: Org
           organizations={bottomRowOrgs}
           speed={BOTTOM_ROW_SPEED}
           onOrganizationClick={onOrganizationClick}
-          direction="right"
+          direction="left"
         />
       </div>
 

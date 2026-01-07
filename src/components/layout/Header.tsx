@@ -22,8 +22,7 @@ export function Header() {
               className="text-white"
               style={{ filter: 'brightness(0) invert(1)' }}
             />
-            <span className="hidden sm:inline">Publishing Policy</span>
-            <span className="sm:hidden text-lg">Policy</span>
+            Publishing Policy
           </Link>
 
           {/* Desktop navigation - hidden on mobile */}
