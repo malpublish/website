@@ -66,22 +66,22 @@ export default async function Home() {
             From newsrooms to nonprofits, universities to YouTubers, governments to Substacks, platforms like Facebook to personal blogs.
           </p>
 
-          {/* Three Pillars - Compact in Hero */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-10 max-w-3xl mx-auto">
-            <div className="bg-white/10 backdrop-blur rounded-lg p-4">
-              <div className="text-2xl mb-2">🎯</div>
-              <h3 className="font-semibold">Your Identity</h3>
-              <p className="text-sm opacity-80">Who you are and who you serve</p>
+          {/* Three Pillars - Always horizontal, compact on mobile */}
+          <div className="grid grid-cols-3 gap-2 sm:gap-4 md:gap-6 mb-8 sm:mb-10 max-w-3xl mx-auto">
+            <div className="bg-white/10 backdrop-blur rounded-lg p-2 sm:p-4">
+              <div className="text-xl sm:text-2xl mb-1 sm:mb-2">🎯</div>
+              <h3 className="font-semibold text-xs sm:text-base">Identity</h3>
+              <p className="text-[10px] sm:text-sm opacity-80 hidden sm:block">Who you are and who you serve</p>
             </div>
-            <div className="bg-white/10 backdrop-blur rounded-lg p-4">
-              <div className="text-2xl mb-2">📝</div>
-              <h3 className="font-semibold">Your Commitments</h3>
-              <p className="text-sm opacity-80">How you verify and ensure accuracy</p>
+            <div className="bg-white/10 backdrop-blur rounded-lg p-2 sm:p-4">
+              <div className="text-xl sm:text-2xl mb-1 sm:mb-2">📝</div>
+              <h3 className="font-semibold text-xs sm:text-base">Commitments</h3>
+              <p className="text-[10px] sm:text-sm opacity-80 hidden sm:block">How you verify and ensure accuracy</p>
             </div>
-            <div className="bg-white/10 backdrop-blur rounded-lg p-4">
-              <div className="text-2xl mb-2">⚖️</div>
-              <h3 className="font-semibold">Your Accountability</h3>
-              <p className="text-sm opacity-80">How you correct and stay accountable</p>
+            <div className="bg-white/10 backdrop-blur rounded-lg p-2 sm:p-4">
+              <div className="text-xl sm:text-2xl mb-1 sm:mb-2">⚖️</div>
+              <h3 className="font-semibold text-xs sm:text-base">Accountability</h3>
+              <p className="text-[10px] sm:text-sm opacity-80 hidden sm:block">How you correct and stay accountable</p>
             </div>
           </div>
 
