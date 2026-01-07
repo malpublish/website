@@ -18,8 +18,8 @@ interface OrganizationCarouselProps {
   onOrganizationClick: (org: Organization) => void
 }
 
-// Scroll speeds (pixels per frame)
-const TOP_ROW_SPEED = 0.3
+// Scroll speeds (pixels per frame) - bottom is 2.5x faster than top
+const TOP_ROW_SPEED = 0.2
 const BOTTOM_ROW_SPEED = 0.5
 
 function getLogoUrl(org: Organization): string {
