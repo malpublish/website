@@ -111,7 +111,7 @@
 | `domain` | TEXT | Primary web domain (e.g., nytimes.com) |
 | `sector` | TEXT | Industry category |
 | `website` | TEXT | Full website URL |
-| `logo_url` | TEXT | Custom logo URL (optional, Clearbit fallback) |
+| `logo_url` | TEXT | Custom logo URL (optional, Google Favicon fallback) |
 | `transparency_status` | TEXT | unknown, unclaimed, claimed, verified |
 | `is_featured` | BOOLEAN | Show in homepage carousel |
 | `is_public` | BOOLEAN | Show in public directory |
@@ -265,5 +265,5 @@ npx supabase gen types typescript --project-id fidjzybkjowguvdlzahs > src/types/
 
 | Service | Purpose | Endpoint |
 |---------|---------|----------|
-| Clearbit Logo API | Organization logos | `https://logo.clearbit.com/{domain}` |
+| Google Favicon API | Organization logos | `https://www.google.com/s2/favicons?domain={domain}&sz=128` |
 | Google DNS API | TXT record verification | `https://dns.google/resolve?name={domain}&type=TXT` |

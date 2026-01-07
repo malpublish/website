@@ -23,9 +23,11 @@ status: active
 
 | Current Focus | Status |
 |---------------|--------|
-| PublishingPolicy.org Rebrand | Phase 4 Complete - Org Carousel Live |
+| PublishingPolicy.org | MVP Live - Strategic expansion phase |
 
 **Start here**: Read this file, then check `docs/initiatives/` for active work.
+
+**Strategic context**: See `~/.claude/plans/sorted-questing-torvalds.md` for grassroots-to-platform strategy.
 
 ---
 

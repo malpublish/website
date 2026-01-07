@@ -2,7 +2,7 @@
 
 **Status**: MVP Complete - Live at publishingpolicy.org
 **Created**: 2026-01-03
-**Updated**: 2026-01-06
+**Updated**: 2026-01-07
 
 ---
 
@@ -91,7 +91,7 @@ Organizations:
 **Organization Carousel**
 - [x] Create OrganizationCarousel component with auto-scroll
 - [x] Create OrganizationModal for click-to-view details
-- [x] Use Clearbit Logo API for organization logos
+- [x] Use Google Favicon API for organization logos
 - [x] Seed 13 high-profile organizations (news, platforms, universities)
 - [x] Add transparency_status framing (unknown → unclaimed → claimed)
 
@@ -111,6 +111,24 @@ Organizations:
 - Paid certification tiers (Verified, Exemplary)
 - PDF/Markdown export
 - Policy version history tracking
+
+### Strategic Roadmap
+
+**Reference**: See `~/.claude/plans/sorted-questing-torvalds.md` for full strategic analysis.
+
+**The Vision**: Grassroots adoption → normalized concept → public demand → platform accountability
+
+**Priority Features** (in order):
+1. **Embeddable badge** - Let adopters prove they have a policy on their own sites
+2. **malpublish.org landing** - Define the term, link to the tool
+3. **Platform templates** - Specific wizard for social media platforms
+4. **Structured data/JSON-LD** - Machine-readable policies for search engines
+
+**Target Tiers**:
+- Tier 4 (Now): Grassroots - bloggers, nonprofits, local news
+- Tier 3 (Next): Creators - Substack, YouTube, podcasts
+- Tier 2 (Future): News/Media - established outlets
+- Tier 1 (Goal): Platforms - Facebook, YouTube, TikTok, X
 
 ---
 

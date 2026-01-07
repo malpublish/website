@@ -23,9 +23,9 @@ Progressive disclosure docs for this project.
 | Resource | URL |
 |----------|-----|
 | Live site | https://publishingpolicy.org |
-| Vercel Dashboard | https://vercel.com/malpublish/malpublish |
+| Vercel Dashboard | https://vercel.com/informationecosystem/publishingpolicy |
 | Supabase Dashboard | https://supabase.com/dashboard/project/fidjzybkjowguvdlzahs |
-| Repository | https://github.com/malpublish/website |
+| Repository | https://github.com/InformationEcosystem/PublishingPolicy |
 
 ---
 
