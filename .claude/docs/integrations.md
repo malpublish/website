@@ -1,4 +1,4 @@
-<!-- Last updated: 2026-01-06 (GitHub/Vercel Rename) | Status: Active -->
+<!-- Last updated: 2026-01-07 | Status: Active -->
 
 # Integrations
 
@@ -172,6 +172,29 @@ curl -s -H "Authorization: Bearer $VERCEL_TOKEN" \
 ```
 
 If org missing, install at: https://github.com/apps/vercel/installations/new
+
+### Quirks: Commit Verification
+
+**Problem**: Git-triggered deployments canceled with "unverified commit" error.
+
+**Cause**: Vercel's `requireVerifiedCommits` setting blocks unsigned commits.
+
+**Fix**: Disable via API:
+```bash
+curl -X PATCH \
+  -H "Authorization: Bearer $VERCEL_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"gitProviderOptions": {"requireVerifiedCommits": false}}' \
+  "https://api.vercel.com/v9/projects/prj_dhRwd8oAXULqJjCvz86ke9t1vlqZ"
+```
+
+**Current setting**: `requireVerifiedCommits: false` (disabled 2026-01-07)
+
+**Check deployment status**:
+```bash
+curl -s -H "Authorization: Bearer $VERCEL_TOKEN" \
+  "https://api.vercel.com/v6/deployments?projectId=prj_dhRwd8oAXULqJjCvz86ke9t1vlqZ&limit=5"
+```
 
 ### Environment Variables (Vercel Dashboard)
 
