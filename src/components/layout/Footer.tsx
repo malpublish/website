@@ -30,8 +30,13 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-500 text-xs sm:text-sm">
-          <p>&ldquo;Malpublish&rdquo; (/mal-PUB-lish/): Publishing in a manner that violates stated ethical standards.</p>
-          <p className="mt-2">Term coined by Roarke Clinton, March 2023</p>
+          <p>&ldquo;Malpublish&rdquo; (/mal-PUB-lish/): Publishing in a manner that constitutes malpractice.</p>
+          <p className="mt-2">
+            Term coined by Roarke Clinton, March 2023.{' '}
+            <a href="https://malpublish.org" target="_blank" rel="noopener noreferrer" className="text-[#64b4ff] hover:underline">
+              malpublish.org
+            </a>
+          </p>
         </div>
       </div>
     </footer>

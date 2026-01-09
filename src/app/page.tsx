@@ -117,7 +117,10 @@ export default async function Home() {
                 To publish in a manner that violates your own stated ethical standards.
               </p>
               <p className="text-xs text-gray-400 mt-2">
-                Term coined March 2023 by Roarke Clinton
+                Term coined March 2023 by Roarke Clinton.{' '}
+                <a href="https://malpublish.org" target="_blank" rel="noopener noreferrer" className="text-[#0074ff] hover:underline">
+                  malpublish.org
+                </a>
               </p>
             </div>
           </div>

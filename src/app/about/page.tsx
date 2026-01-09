@@ -55,12 +55,22 @@ export default function AboutPage() {
               &ldquo;Malpublish&rdquo; /mal-PUB-lish/ (verb)
             </p>
             <p className="text-gray-700">
-              To publish in a manner that violates your own stated ethical standards.
+              To publish in a manner that constitutes malpractice.
             </p>
-            <p className="text-xs text-gray-400 mt-2">
-              Term coined March 2023 by Roarke Clinton
+            <p className="text-xs text-gray-400 mt-3">
+              Term coined March 2023 by Roarke Clinton.{' '}
+              <a href="https://malpublish.org" target="_blank" rel="noopener noreferrer" className="text-[#0074ff] hover:underline">
+                Full definition at malpublish.org
+              </a>
             </p>
           </div>
+          <p className="text-gray-700 mb-4">
+            As <a href="https://malpublish.org" target="_blank" rel="noopener noreferrer" className="text-[#0074ff] hover:underline">malpublish.org</a> explains,
+            {' '}&ldquo;Malpublishing is the cause of misinformation. There would be no misinformation
+            without publishing malpractice.&rdquo; The term combines the prefix &ldquo;mal-&rdquo;
+            (meaning bad or wrongful) with &ldquo;publish,&rdquo; following patterns like malpractice
+            and malfunction.
+          </p>
           <p className="text-gray-700 mb-4">
             Unlike universal ethics codes that try to apply the same rules to everyone,
             malpublishing is personal. A tabloid and an academic journal have different

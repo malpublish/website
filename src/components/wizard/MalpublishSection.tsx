@@ -88,9 +88,15 @@ export function MalpublishSection({
       {/* Explanation box */}
       <div className="max-w-2xl mx-auto mb-8">
         <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6">
+          <p className="text-gray-700 leading-relaxed mb-3">
+            The term <strong>&ldquo;malpublish&rdquo;</strong> was{' '}
+            <a href="https://malpublish.org" target="_blank" rel="noopener noreferrer" className="text-[#0074ff] hover:underline">
+              coined in 2023
+            </a>
+            {' '}to describe publishing malpractice—&ldquo;the cause of misinformation.&rdquo;
+          </p>
           <p className="text-gray-700 leading-relaxed">
-            In 2023, we coined the term <strong>&ldquo;malpublish&rdquo;</strong> to describe
-            publishing malpractice. Based on <strong>your commitments</strong>, here&apos;s
+            Based on <strong>your commitments</strong>, here&apos;s
             what malpublishing means for <span className="font-semibold text-blue-700">{identity.organization_name}</span>:
           </p>
         </div>
